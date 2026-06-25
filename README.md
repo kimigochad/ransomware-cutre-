@@ -8,5 +8,5 @@ incripta todo en chacha20, tiene la misma key y nonce en cada encriptación, fun
 
 simple diagrama del tipo de cifrado(chacha20):
 Texto plano  →  XOR con flujo generado (clave + nonce)  →  Texto cifrado
-Texto cifrado →  XOR con el mismo flujo (clave + nonce) →  Texto plano
+→  XOR con el mismo flujo (clave + nonce) →  Texto plano
 
