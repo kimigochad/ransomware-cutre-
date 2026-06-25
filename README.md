@@ -1,12 +1,41 @@
-### ransomware-cutre-
-# ransomware cutre y simple, programado en c en menos de 50 lineas de codigo
+### Ransomware-Cutre
 
-este ransomware fue hecho estando orientado en el entendimiento de este tipo de malware.
-es simple y no se compara en lo sofisticado que son los ransomware hoy en dia, fue hecho para dar una idea(ejemplo) de como funciona este tipo de malware.
-Porfavor si utilizas este ejemplo con intensiones malevolas, no me heches la culpa porque fue hecho para dar educacion de este tipo de malware, se un poco hombre y se responsable.
-incripta todo en chacha20, tiene la misma key y nonce en cada encriptación, funcionando como desincriptador al mismo tiempo
+Un ransomware cutre y simple, programado en C en menos de 50 líneas de código.
+Este proyecto fue creado con fines educativos, orientado al entendimiento de cómo funcionan este tipo de malware de manera básica.
 
-simple diagrama del tipo de cifrado(chacha20):
-Texto plano  →  XOR con flujo generado (clave + nonce)  →  Texto cifrado
-→  XOR con el mismo flujo (clave + nonce) →  Texto plano
+⚠️ Aviso importante
+Este código no debe ser utilizado con fines maliciosos.
+El objetivo es aprender y comprender el funcionamiento de los ransomware, no causar daño.
+Si lo usas con intenciones irresponsables, la responsabilidad es únicamente tuya.
 
+---
+
+📖 Descripción
+
+• Implementado en C de forma minimalista.
+• Utiliza el algoritmo de cifrado ChaCha20.
+• Emplea la misma clave y nonce en cada operación, lo que lo convierte en un cifrador y descifrador al mismo tiempo.
+• Es un ejemplo conceptual: no se compara con la sofisticación de los ransomware modernos.
+
+
+---
+
+🚀 Objetivo educativo
+
+• Mostrar cómo se puede cifrar y descifrar archivos con un algoritmo de flujo.
+• Entender la lógica detrás de un ransomware de manera segura y controlada.
+• Servir como ejemplo académico para estudiantes y curiosos de la programación en C y la seguridad informática.
+
+
+---
+
+🔄 Flujo simple de ChaCha20
+
+Texto plano 
+   → XOR con flujo generado (clave + nonce) 
+   → Texto cifrado 
+   → XOR con el mismo flujo (clave + nonce) 
+   → Texto plano
+
+
+---
