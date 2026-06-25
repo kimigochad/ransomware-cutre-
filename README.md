@@ -24,7 +24,7 @@ Si lo usas con intenciones irresponsables, la responsabilidad es únicamente tuy
 
 • Mostrar cómo se puede cifrar y descifrar archivos con un algoritmo de flujo.
 • Entender la lógica detrás de un ransomware de manera segura y controlada.
-• Servir como ejemplo académico para estudiantes y curiosos de la programación en C y la seguridad informática.
+• Servir como ejemplo académico para estudiantes y curiosos de la programación en C y la seguridad informática como yo.
 
 
 ---
