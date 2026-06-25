@@ -7,27 +7,6 @@ Porfavor si utilizas este ejemplo con intensiones malevolas, no me heches la cul
 incripta todo en chacha20, tiene la misma key y nonce en cada encriptación, funcionando como desincriptador al mismo tiempo
 
 simple diagrama del tipo de cifrado(chacha20):
-   ┌───────────────┐
-   │   Texto plano │
-   └───────┬───────┘
-           │
-           ▼
-   ┌───────────────────────┐
-   │ ChaCha20 (clave+nonce)│
-   └───────┬───────────────┘
-           │
-           ▼
-   ┌───────────────┐
-   │ Texto cifrado │
-   └───────┬───────┘
-           │
-           ▼
-   ┌───────────────────────┐
-   │ ChaCha20 (misma clave │
-   │       + mismo nonce)  │
-   └───────┬───────────────┘
-           │
-           ▼
-   ┌───────────────┐
-   │   Texto plano │
-   └───────────────┘
+Texto plano  →  XOR con flujo generado (clave + nonce)  →  Texto cifrado
+Texto cifrado →  XOR con el mismo flujo (clave + nonce) →  Texto plano
+
