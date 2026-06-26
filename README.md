@@ -1,4 +1,5 @@
 ### Ransomware-Cutre
+![logo](52B10323-F65F-428F-B575-20C636CE7B7F.png)
 
 Un ransomware cutre y simple, programado en C en menos de 50 líneas de código.
 Este proyecto fue creado con fines educativos, orientado al entendimiento de cómo funcionan este tipo de malware de manera básica.
